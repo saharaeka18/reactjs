@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 import MovieCard from "./MovieCard";
 import MovieForms from "./MovieForms";
+import MovieSlide from './MovieSlide';
 import Image from "next/image";
 
 export default function Home() {
@@ -34,6 +35,11 @@ export default function Home() {
         <br/>
           <MovieForms />
 <br/>
+
+<br/>
+<br/>
+<MovieSlide />
+
           </div>
       </div>
   <div className='bg-white' >
